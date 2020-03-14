@@ -43,7 +43,6 @@ A few handy commands are:
 
 If you have any bugs or questions on how to use me join @DishaHelpChat.
 
- All commands can be used with the following: / !
 
 {}
 And the following:
