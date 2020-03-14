@@ -18,9 +18,11 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+hello {}, darling my name is {}! if you have any questions about how to use me please give me /help... 
 
 im a group manager bot maintained by  [this person](tg://user?id={}).
+
+[Click Here](http://telegram.me/DishaP_Bot?startgroup=botstart) to add me in your group.
 
 My Support Group @DishaHelpChat & My Future Updates Will Be Posted On @MarieChechi
 
@@ -39,6 +41,7 @@ Hello! my name *{}*.
 
 *Main* available commands:
  - /start: Start the bot...
+ - [ClickHere](https://t.me/DishaHelpChat) To Join Our Official Support Group
  - /help: help....
  - /donate: To find out more about donating!
  - /settings:
