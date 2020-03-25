@@ -18,34 +18,23 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hello {}, Darling my name is {}! if you have any questions about how to use me please give me /help... 
-
-im a group manager bot maintained by  [this person](tg://user?id={}).
-
-[Click Here](http://telegram.me/DishaP_Bot?startgroup=botstart) to add me in your group.
-
-My Support Group @DishaHelpChat & My Future Updates Will Be Posted On @MarieChechi
-
-
-
+Hey {} !
+My name is {} - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+Maintained By - @TechnoAyanOfficial
+Want to add me to your chat? [Click here](http://telegram.me/RupeeloRoBoT?startgroup=botstart)
 """
 
 HELP_STRINGS = """
-
-Hello! my name *{}*.
-I am a group management bot, here to help you get around and keep the order in your groups!
+Hey! My name is Rupeelo Manager. I am a group management bot, here to help you get around and keep the order in your groups!
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
 
 A few handy commands are:
  - /start: starts me! You've probably already used this.
  - /help: gets this message out; I'll tell you more about myself!
- - [Click Here](https://t.me/DishaHelpChat): Bot's Official Chat 
 
-If you have any bugs or questions on how to use me join @DishaHelpChat.
+If you have any questions on how to use me, have a look at @AnsariTech or Contact @TechnoAyanOfficial
 
-
-{}
-And the following:
+ All commands can be used with the following: / !
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
