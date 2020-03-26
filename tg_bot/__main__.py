@@ -17,25 +17,13 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-PM_START_TEXT = """
-Hey {} !
-My name is {} - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
-Maintained By - @TechnoAyanOfficial
-Want to add me to your chat? [Click here](http://telegram.me/RupeeloRoBoT?startgroup=botstart)
-"""
+PM_START_TEXT = """I'm a Member Adder Bot
+I will Add up to 10k members
+In Your Groups 😁😁😁"""
 
-HELP_STRINGS = """
-Hey! My name is Rupeelo Manager. I am a group management bot, here to help you get around and keep the order in your groups!
-I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
-
-A few handy commands are:
- - /start: starts me! You've probably already used this.
- - /help: gets this message out; I'll tell you more about myself!
-
-If you have any questions on how to use me, have a look at @AnsariTech or Contact @TechnoAyanOfficial
-
- All commands can be used with the following: / !
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
+HELP_STRINGS = """I'm a Member Adder Bot
+I will Add up to 10k members
+In Your Groups 😁😁😁""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
