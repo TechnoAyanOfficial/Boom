@@ -22,9 +22,6 @@ My name is {} - I'm here to help you manage your groups! Hit /help to find out m
 Maintained By - @TechnoAyanOfficial
 Want to add me to your chat? [Click here](http://telegram.me/RupeeloRoBoT?startgroup=botstart)
 """
-PM_START_TEXT = """I'm a Member Adder Bot
-I will Add up to 10k members
-In Your Groups 😁😁😁"""
 
 HELP_STRINGS = """
 Hey! My name is Rupeelo Manager. I am a group management bot, here to help you get around and keep the order in your groups!
